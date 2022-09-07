@@ -1,0 +1,29 @@
+node.js - 자바스크립트 독립 실행기
+npm - 자바스크립트 라이브러리 설치 및 실행
+barbel라이브러리 - jsp문법
+webpack - 압축기
+creat-react-app라이브리
+
+1.node.js 설치 후 터미널 실행 후 node -v 입력
+
+2.vscode 설정
+  -설정메뉴, settings.json에서
+  "emmet.includeLanguages":{
+      "javascript":"javascriptreact"
+  } 추가
+
+-익스텐션
+Reactjs code snippets
+Auto Import
+
+-vscode 관리자 권한 실행
+
+3.리액트 프로젝트 세팅
+-리액트 개발환경 구축 프로그램 설치
+npm install -g create-react-app // create-react-app -V //
+-리액트 프로젝트 폴더 
+create-react-app folderName(FolderName)
+-리액트 서버환경 실행
+npm run start
+
+4.리액트 프로젝트를 git과 연동시 주의사항
