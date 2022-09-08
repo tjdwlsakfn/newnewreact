@@ -1,0 +1,57 @@
+1.node.js 설치 후 터미널 실행 후 node -v 입력
+
+2.vscode 설정
+  -설정메뉴, settings.json에서
+  "emmet.includeLanguages":{
+      "javascript":"javascriptreact"
+  } 추가
+
+-익스텐션
+Reactjs code snippets
+Auto Import
+
+-vscode 관리자 권한 실행
+
+3.리액트 프로젝트 세팅
+-리액트 개발환경 구축 프로그램 설치
+npm install -g create-react-app // create-react-app -V //
+
+-리액트 프로젝트 폴더 
+create-react-app folderName(FolderName)
+
+-리액트 서버환경 실행
+npm run start
+
+-리액트 빌드
+1)npm run bulid
+2)build 폴더 안의 파일들을 호스트 루트에 업로드
+
+-리액트 깃허브 호스팅
+1)깃허브 저장소 생성 (add ReadMe File 체크)
+2)addFile 업로드 후 commit change 클릭
+  -리액트의 경우, 빌드 전 package.json 파일에 아래 내용 추가
+  "homepage": "https://깃허브아이디/github.io/저장소이름"
+  "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+  }
+  -npm install -save git-pages 실행
+3)저장소 설정/pages/branch를 main으로 선택 후 save 버튼 클릭
+
+4.리액트 프로젝트를 git과 연동시 주의사항
+.gitignore파일에 node_modules 입력
+
+5.리액트 절대 경로 변수
+<link href="PUBLIC_URL%/css/style.css">
+
+%PUBLIC_URL%
+process.env.PUBLIC_URL
+
+-Single Page App
+  컴퍼넌트 구성을 자바스크립트로 가능
+  페이지 이동 속도가 향상
+
+
+
+
+
